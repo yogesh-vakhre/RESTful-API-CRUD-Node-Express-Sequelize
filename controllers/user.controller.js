@@ -1,4 +1,5 @@
-const User = require("../models").User
+const User = require("../models").User;
+const Post =require("../models").Post;
 const { Op } = require("sequelize");
 
 module.exports = {
@@ -8,7 +9,7 @@ module.exports = {
     const email = req.query.email;
     var condition = email ? { email: { [Op.like]: `%${email}%` } } : null;
   
-    User.findAll({ where: condition })
+    User.findAll({include: Post, where: condition })
       .then(data => {
         res.send(data);
       })
