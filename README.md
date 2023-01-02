@@ -8,6 +8,7 @@ Build Your First API With Express Generator, Sequelize and CLI(https://medium.co
 
 Exploring The Node.js With MySQL Example Using Sequelize & Express(https://www.esparkinfo.com/blog/node-js-with-mysql-using-sequelize-express.html)
 
+How to Authenticate Users and Implement CORS in Node.js Apps(https://www.freecodecamp.org/news/how-to-authenticate-users-and-implement-cors-in-nodejs-applications/)
 
 ## Simple CRUD Express.js Featuring Sequelize ORM
 Basic simple example CRUD (Create,Read,Update,Delete) on Nodejs using framework Express JS featuring Sequelize ORM with database MySQL.
